@@ -1,0 +1,32 @@
+svg .abobus{
+    width: 1000px;
+    height: 1000px;
+}
+
+svg > circle{
+    fill:red;
+} 
+
+div {
+    border-width: 12px;
+    border-color: blue;
+    overflow: hidden;
+}
+
+svg {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+  
+@keyframes slidein {
+    
+    0% {
+        margin-left: 100%;
+    }
+  
+    100% {
+        margin-left: 0%;
+    }
+}
