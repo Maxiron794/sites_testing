@@ -1,36 +1,45 @@
-svg .abobus{
-    width: 1000px;
-    height: 1000px;
+/* html{
+    height: 1000%;
+} */
+
+body{
+    margin: 0px;
+    height: 100%;
 }
 
-svg > circle{
+main{
+    height: 100%;
+}
+
+.abobus circle{
     fill:red;
 } 
 
-div .havesvg{
-    border-width: 12px;
-    border-color: blue;
+.havesvg{
+    /*border: 2px solid black;*/
     overflow: hidden;
+    width: 98%;
+    height: 1000px;
 }
 
-svg .abobus{
+.abobus{
+    width: 75%;
+    min-width: 500px;
+    height: 100%;
     animation-name: slidein;
     animation-duration: 1.5s;
-    animation-delay: 0s;
     animation-iteration-count: 1;
-    width: 75%;
-    height: 75%;
-    min-width: 500px;
-    min-height: 500px;
 }
-  
+ 
 @keyframes slidein {
     
     0% {
-        margin-left: 100%;
+        margin-right: 50%;
+        margin-bottom: 50%;
     }
   
     100% {
-        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
     }
 }
