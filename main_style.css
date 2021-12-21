@@ -7,17 +7,21 @@ svg > circle{
     fill:red;
 } 
 
-div {
+div .havesvg{
     border-width: 12px;
     border-color: blue;
     overflow: hidden;
 }
 
-svg {
-    animation-duration: 1.5s;
+svg .abobus{
     animation-name: slidein;
+    animation-duration: 1.5s;
     animation-delay: 0s;
     animation-iteration-count: 1;
+    width: 75%;
+    height: 75%;
+    min-width: 500px;
+    min-height: 500px;
 }
   
 @keyframes slidein {
